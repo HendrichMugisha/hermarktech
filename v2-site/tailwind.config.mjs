@@ -4,14 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        "brand-dark": "#010D0F",
-        "brand-teal": "#002D33",
-        "brand-teal-light": "#004B54",
-        "brand-teal-accent": "#007A87",
+        "brand-dark": "#001f24",
+        "brand-teal": "#004b54",
+        "brand-teal-light": "#007a87",
         "brand-yellow": "#FFD700",
-        "brand-yellow-muted": "#D4AF37",
-        "brand-text": "#E6F3F5",
-        "brand-text-dim": "#9DB7BC"
+        "brand-text": "#1e293b",
+        "brand-text-dim": "#64748b"
       },
       fontFamily: {
         "headline": ["Outfit", "sans-serif"],
