@@ -64,21 +64,21 @@ const pricingTiers = [
   {
     id: "tier1",
     name: "Tier 1: Premium Web Presence & Showcase",
-    basePrice: 1800,
+    basePrice: 150,
     description: "Custom premium frontend design, ultra-fast static performance (Astro/Tailwind), advanced micro-animations, SEO optimization, and lead capture forms.",
     recommendedFor: "Emerging brands, professional portfolios, and luxury hospitality."
   },
   {
     id: "tier2",
     name: "Tier 2: E-Commerce & Dynamic Platforms",
-    basePrice: 4200,
+    basePrice: 600,
     description: "Headless CMS integration (Shopify/Strapi), dynamic product lookbooks, customer authentication, and secure payment gateway integrations.",
     recommendedFor: "Growing businesses, boutique e-commerce, and educational academies."
   },
   {
     id: "tier3",
     name: "Tier 3: Custom Full-Stack Web Apps & SaaS",
-    basePrice: 10500,
+    basePrice: 1000,
     description: "Custom relational databases, proprietary API development, advanced user roles, AI integrations, complex backend logic, and bank-grade security.",
     recommendedFor: "Tech startups, SaaS platforms, and enterprise operational dashboards."
   }
@@ -96,6 +96,7 @@ const pricingTiers = [
         <nav class="hidden md:flex gap-8 items-center">
             <a class="text-xs font-bold tracking-widest uppercase text-white/70 hover:text-brand-yellow transition-colors" href="#philosophy">Our Approach</a>
             <a class="text-xs font-bold tracking-widest uppercase text-white/70 hover:text-brand-yellow transition-colors" href="#work">Portfolio</a>
+            <a class="text-xs font-bold tracking-widest uppercase text-white/70 hover:text-brand-yellow transition-colors" href="#estimator">Investment Tiers</a>
             
             <div class="p-[2px] rounded-full bg-gradient-to-r from-brand-teal to-brand-yellow inline-block hover:scale-105 transition-transform shadow-[0_0_15px_rgba(255,215,0,0.2)]">
                 <a class="block bg-[#010A0C] text-white px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase" href="#contact">Discuss Your Vision</a>
@@ -114,6 +115,7 @@ const pricingTiers = [
         </button>
         <a class="mobile-link text-xl font-bold tracking-widest uppercase text-white hover:text-brand-yellow transition-colors" href="#philosophy">Our Approach</a>
         <a class="mobile-link text-xl font-bold tracking-widest uppercase text-white hover:text-brand-yellow transition-colors" href="#work">Portfolio</a>
+        <a class="mobile-link text-xl font-bold tracking-widest uppercase text-white hover:text-brand-yellow transition-colors" href="#estimator">Investment Tiers</a>
         <div class="p-[2px] rounded-full bg-gradient-to-r from-brand-teal to-brand-yellow mt-4">
             <a class="mobile-link block bg-[#010A0C] text-white px-8 py-4 rounded-full text-lg font-bold tracking-widest uppercase" href="#contact">Discuss Your Vision</a>
         </div>
@@ -305,40 +307,6 @@ const pricingTiers = [
         </div>
     </section>
 
-    <!-- LEADERSHIP / THE AGENCY FACE -->
-    <section class="py-16 md:py-24 relative z-10 bg-slate-50">
-        <div class="max-w-5xl mx-auto px-6 text-center">
-            <h2 class="text-xs tracking-[0.3em] text-brand-teal uppercase font-bold mb-4">The Leadership</h2>
-            <h3 class="font-headline text-3xl md:text-5xl text-brand-dark font-bold tracking-tight mb-12">Meet the Architects</h3>
-            
-            <div class="grid md:grid-cols-2 gap-8 text-left">
-                <!-- Charlene -->
-                <div class="bg-white border border-slate-200 p-8 rounded-3xl flex flex-col items-center text-center hover:shadow-xl transition-shadow shadow-md">
-                    <div class="w-32 h-32 bg-gradient-to-br from-brand-teal to-brand-yellow rounded-full mb-6 p-[4px] shadow-xl hover:scale-105 transition-transform duration-300">
-                        <div class="w-full h-full bg-[#010A0C] rounded-full overflow-hidden border-2 border-[#010A0C] relative">
-                            <img src="/charlene.png" alt="Charlene Nyakaisiki" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><rect width=\'100\' height=\'100\' fill=\'%23010A0C\'/><text x=\'50\' y=\'55\' font-family=\'Arial\' font-size=\'30\' fill=\'%23007a87\' font-weight=\'bold\' text-anchor=\'middle\' alignment-baseline=\'middle\'>CN</text></svg>'" />
-                        </div>
-                    </div>
-                    <h4 class="text-2xl font-bold text-brand-dark font-headline mb-1">Charlene Nyakaisiki</h4>
-                    <p class="text-xs tracking-[0.2em] text-brand-teal uppercase font-bold mb-4">Founder & Visionary</p>
-                    <p class="text-slate-600 text-sm leading-relaxed">Spearheading the strategic direction and ensuring every solution aligns perfectly with our clients' long-term business goals.</p>
-                </div>
-                
-                <!-- Henry -->
-                <div class="bg-white border border-slate-200 p-8 rounded-3xl flex flex-col items-center text-center hover:shadow-xl transition-shadow shadow-md">
-                    <div class="w-32 h-32 bg-gradient-to-br from-brand-teal to-brand-yellow rounded-full mb-6 p-[4px] shadow-xl hover:scale-105 transition-transform duration-300">
-                        <div class="w-full h-full bg-[#010A0C] rounded-full overflow-hidden border-2 border-[#010A0C] relative">
-                            <img src="/henry.png" alt="Henry Mark Tukamwesiga" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><rect width=\'100\' height=\'100\' fill=\'%23010A0C\'/><text x=\'50\' y=\'55\' font-family=\'Arial\' font-size=\'30\' fill=\'%23007a87\' font-weight=\'bold\' text-anchor=\'middle\' alignment-baseline=\'middle\'>HT</text></svg>'" />
-                        </div>
-                    </div>
-                    <h4 class="text-2xl font-bold text-brand-dark font-headline mb-1">Henry Mark Tukamwesiga</h4>
-                    <p class="text-xs tracking-[0.2em] text-brand-teal uppercase font-bold mb-4">CTO & Lead Architect</p>
-                    <p class="text-slate-600 text-sm leading-relaxed">Directing the engineering team and architecting highly scalable, zero-downtime infrastructure for enterprise operations.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- INTERACTIVE PROJECT ESTIMATOR (Premium Dark Theme Anchor) -->
     <section class="py-16 md:py-24 relative z-10 bg-[#010A0C] border-t-[4px] border-brand-teal/30 overflow-hidden" id="estimator">
         <div class="absolute inset-0 bg-gradient-to-b from-brand-teal/10 via-transparent to-[#010A0C] pointer-events-none z-0"></div>
@@ -351,7 +319,7 @@ const pricingTiers = [
             </p>
 
             <!-- Tiers Grid -->
-            <div class="grid md:grid-cols-3 gap-6 text-left mb-16">
+            <div class="grid md:grid-cols-3 gap-6 text-left mb-12">
                 {pricingTiers.map((tier, index) => (
                     <div class={`tier-card p-8 rounded-3xl bg-[#0d121c] border-2 ${index === 1 ? 'border-brand-yellow bg-brand-teal/10 shadow-[0_0_30px_rgba(255,215,0,0.2)]' : 'border-white/10'} hover:border-brand-teal transition-all duration-300 cursor-pointer flex flex-col justify-between group`} data-tier-id={tier.id} data-tier-name={tier.name} data-base-price={tier.basePrice}>
                         <div>
@@ -373,6 +341,19 @@ const pricingTiers = [
                         </div>
                     </div>
                 ))}
+            </div>
+
+            <!-- Negotiable Callout Banner -->
+            <div class="max-w-3xl mx-auto mb-16 bg-brand-teal/10 border border-brand-teal/40 rounded-2xl p-6 flex items-center gap-4 text-left shadow-lg backdrop-blur-sm">
+                <div class="w-12 h-12 bg-brand-teal/20 rounded-full flex items-center justify-center shrink-0 text-brand-yellow">
+                    <span class="material-symbols-outlined text-2xl">handshake</span>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold text-sm tracking-wider uppercase mb-1">100% Flexible & Negotiable Terms</h5>
+                    <p class="text-slate-300 text-xs md:text-sm leading-relaxed">
+                        Need custom terms or early-stage budget adjustments? All baseline figures are fully negotiable and structurally flexible based on your exact feature roadmap and business stage.
+                    </p>
+                </div>
             </div>
 
             <!-- Dynamic Calculator Estimate Display -->
@@ -426,6 +407,40 @@ const pricingTiers = [
                             WhatsApp Us
                         </button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEADERSHIP / THE AGENCY FACE -->
+    <section class="py-16 md:py-24 relative z-10 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-xs tracking-[0.3em] text-brand-teal uppercase font-bold mb-4">The Leadership</h2>
+            <h3 class="font-headline text-3xl md:text-5xl text-brand-dark font-bold tracking-tight mb-12">Meet the Architects</h3>
+            
+            <div class="grid md:grid-cols-2 gap-8 text-left">
+                <!-- Charlene -->
+                <div class="bg-white border border-slate-200 p-8 rounded-3xl flex flex-col items-center text-center hover:shadow-xl transition-shadow shadow-md">
+                    <div class="w-32 h-32 bg-gradient-to-br from-brand-teal to-brand-yellow rounded-full mb-6 p-[4px] shadow-xl hover:scale-105 transition-transform duration-300">
+                        <div class="w-full h-full bg-[#010A0C] rounded-full overflow-hidden border-2 border-[#010A0C] relative">
+                            <img src="/charlene.png" alt="Charlene Nyakaisiki" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><rect width=\'100\' height=\'100\' fill=\'%23010A0C\'/><text x=\'50\' y=\'55\' font-family=\'Arial\' font-size=\'30\' fill=\'%23007a87\' font-weight=\'bold\' text-anchor=\'middle\' alignment-baseline=\'middle\'>CN</text></svg>'" />
+                        </div>
+                    </div>
+                    <h4 class="text-2xl font-bold text-brand-dark font-headline mb-1">Charlene Nyakaisiki</h4>
+                    <p class="text-xs tracking-[0.2em] text-brand-teal uppercase font-bold mb-4">Founder & Visionary</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">Spearheading the strategic direction and ensuring every solution aligns perfectly with our clients' long-term business goals.</p>
+                </div>
+                
+                <!-- Henry -->
+                <div class="bg-white border border-slate-200 p-8 rounded-3xl flex flex-col items-center text-center hover:shadow-xl transition-shadow shadow-md">
+                    <div class="w-32 h-32 bg-gradient-to-br from-brand-teal to-brand-yellow rounded-full mb-6 p-[4px] shadow-xl hover:scale-105 transition-transform duration-300">
+                        <div class="w-full h-full bg-[#010A0C] rounded-full overflow-hidden border-2 border-[#010A0C] relative">
+                            <img src="/henry.png" alt="Henry Mark Tukamwesiga" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><rect width=\'100\' height=\'100\' fill=\'%23010A0C\'/><text x=\'50\' y=\'55\' font-family=\'Arial\' font-size=\'30\' fill=\'%23007a87\' font-weight=\'bold\' text-anchor=\'middle\' alignment-baseline=\'middle\'>HT</text></svg>'" />
+                        </div>
+                    </div>
+                    <h4 class="text-2xl font-bold text-brand-dark font-headline mb-1">Henry Mark Tukamwesiga</h4>
+                    <p class="text-xs tracking-[0.2em] text-brand-teal uppercase font-bold mb-4">CTO & Lead Architect</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">Directing the engineering team and architecting highly scalable, zero-downtime infrastructure for enterprise operations.</p>
                 </div>
             </div>
         </div>
