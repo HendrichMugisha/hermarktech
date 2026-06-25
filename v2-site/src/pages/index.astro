@@ -19,20 +19,36 @@ const coreProjects = [
     image: "/aura.png"
   },
   {
-    name: "The Cooking Nurse",
-    description: "Automated e-commerce, digital product delivery, and DRM-protected premium online course streaming.",
-    impact: "Automated delivery for 1,000+ premium digital course streaming hours.",
-    tech: ["React", "Node.js", "VdoCipher DRM"],
-    link: "https://the-cooking-nurse-repo.onrender.com/",
-    image: "/the_cooking_nurse.png"
+    name: "Vélour Éclair Apparel",
+    description: "High-fashion avant-garde streetwear architecture featuring an immersive 3-level interactive lookbook and live multi-tag catalog filtering.",
+    impact: "Showcase prototype demonstrating premium dark-mode editorial UI/UX.",
+    tech: ["HTML5", "Vanilla JS", "Tailwind CSS"],
+    link: "https://mockups.hermarktech.com/clothing_store_site/",
+    image: "/mockup_clothing.avif"
   },
   {
-    name: "Material Girl UG",
-    description: "Bespoke enterprise retail POS engine with zero-collision QR generation and multi-branch live inventory tracking.",
-    impact: "Scaled to handle 10,000+ zero-collision QR scans with multi-branch sync.",
-    tech: ["Next.js", "Hardware Auth", "Role-Based Access"],
-    link: "https://materialgirlug-inventory.onrender.com/",
-    image: "/material.png"
+    name: "The Grand Serenade Hotel",
+    description: "Ultra-luxury eco-resort application equipped with an interactive satellite map explorer, before/after spa slider, and live quotation engine.",
+    impact: "Showcase prototype demonstrating elite hospitality digital transformation.",
+    tech: ["HTML5", "Vanilla JS", "Tailwind CSS"],
+    link: "https://mockups.hermarktech.com/hotel_site/",
+    image: "/mockup_hotel.png"
+  },
+  {
+    name: "Aura Botanica Cosmetics",
+    description: "Advanced luxury skincare architecture featuring an interactive Clinical Consultation Routine Finder, dynamic Science Matrix, and shopping bag state.",
+    impact: "Showcase prototype demonstrating premium cosmetic commerce funnels.",
+    tech: ["HTML5", "Vanilla JS", "Tailwind CSS"],
+    link: "https://mockups.hermarktech.com/beauty_store_site/",
+    image: "/mockup_beauty.png"
+  },
+  {
+    name: "Veritas International Academy",
+    description: "Classical heritage meets neo-brutalist tech infrastructure. Showcases an interactive Academic Pathfinder Quiz and Admissions Eligibility Checker.",
+    impact: "Showcase prototype demonstrating elite preparatory institution portals.",
+    tech: ["HTML5", "Vanilla JS", "Tailwind CSS"],
+    link: "https://mockups.hermarktech.com/school_site/",
+    image: "/mockup_school.png"
   }
 ];
 
@@ -96,11 +112,19 @@ const techStack = [
                 Stop relying on generic templates. Tell us your exact operational bottlenecks, and we will architect custom digital solutions that automate your workflow and scale your revenue.
             </p>
 
-            <div class="pt-6">
-                <div class="p-[3px] rounded-full bg-gradient-to-r from-brand-teal to-brand-yellow inline-block shadow-[0_0_20px_rgba(255,215,0,0.5)] animate-[pulse_3s_infinite] hover:scale-105 transition-transform duration-300">
-                    <a class="flex items-center gap-3 bg-[#010A0C] hover:bg-brand-dark transition-colors text-white px-8 py-4 md:px-10 md:py-5 rounded-full font-bold tracking-widest uppercase text-xs md:text-sm" href="#contact">
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-center gap-6">
+                <!-- Primary CTA: Let's Discuss Your Project -->
+                <div class="p-[3px] rounded-full bg-gradient-to-r from-brand-teal to-brand-yellow inline-block shadow-[0_0_20px_rgba(255,215,0,0.5)] animate-[pulse_3s_infinite] hover:scale-105 transition-transform duration-300 w-full sm:w-auto">
+                    <a class="flex items-center justify-center gap-3 bg-[#010A0C] hover:bg-brand-dark transition-colors text-white px-8 py-4 md:px-10 md:py-5 rounded-full font-bold tracking-widest uppercase text-xs md:text-sm" href="#contact">
                         Let's Discuss Your Project
                         <span class="material-symbols-outlined text-sm text-brand-yellow">arrow_forward</span>
+                    </a>
+                </div>
+                <!-- Secondary CTA: Explore Industry Prototypes -->
+                <div class="w-full sm:w-auto hover:scale-105 transition-transform duration-300">
+                    <a class="flex items-center justify-center gap-3 bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-md text-white px-8 py-4 md:px-10 md:py-5 rounded-full font-bold tracking-widest uppercase text-xs md:text-sm shadow-xl" href="https://mockups.hermarktech.com/" target="_blank">
+                        Inspect Industry Prototypes
+                        <span class="material-symbols-outlined text-sm text-brand-teal">open_in_new</span>
                     </a>
                 </div>
             </div>
